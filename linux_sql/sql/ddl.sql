@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS host_info
      CONSTRAINT host_info_un UNIQUE (hostname) 
   );
 
-
   CREATE TABLE IF NOT EXISTS host_usage 
   ( 
      "timestamp"    TIMESTAMP NOT NULL, 
@@ -28,19 +27,5 @@ CREATE TABLE IF NOT EXISTS host_info
      CONSTRAINT host_usage_host_info_fk FOREIGN KEY (host_id) REFERENCES 
      host_info(id) 
   );
-
-  CREATE TABLE IF NOT EXISTS students 
-  ( 
-     std_id        SERIAL NOT NULL, 
-     std_name      VARCHAR(50) NOT NULL, 
-     std_address   VARCHAR(50) NOT NULL, 
-     std_age       INT2 NOT NULL 
-   );
-
-INSERT INTO students (std_name, std_address, std_age)
-VALUES ('toto', 'France', '20')
-;
-
-select * from students;
 
 \dt
