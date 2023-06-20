@@ -1,7 +1,9 @@
 \c host_agent
+SELECT * FROM host_info;
 
+SELECT * FROM host_usage;
 
-SELECT host_id, cpu_idle, memory_free 
+SELECT host_id, cpu_idle, memory_free
 FROM host_usage
 GROUP BY host_id, cpu_idle, memory_free
 ORDER BY memory_free DESC;

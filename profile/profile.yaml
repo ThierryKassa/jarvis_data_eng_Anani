@@ -1,0 +1,124 @@
+# Preferred name (Characters only)
+name: "Anani Thierry Kassa"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-Anani-jrvs
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: Highly skilled Software Engineer with seven years of experience in business application design and website development, I possess expertise in Java, Angular, Maven, and Spring Boot. Certified in multiple technologies including Oracle Java SE 8, Microsoft Azure, and Agile-Scrum, I have a strong technical foundation. My accomplishments include developing a web-based trading application resulting in increased trade volume and reduced latency, optimizing SQL queries for improved performance, and collaborating on cross-functional teams to deliver projects on time and within budget. Fluent in French, English, and Chinese, I am a self-motivated learner and a valuable team player.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Docker
+    - Regexp
+    - PostgreSQL
+    - fermentum
+    - Donec
+  # At least 5 skills
+  familiar:
+    - Donec
+    - fermentum
+    - fermentum
+    - fermentum
+    - fermentum
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Linux Cluster Monitoring Agent "
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-Anani-jrvs/tree/master/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Managed a Linux cluster of 10 nodes/servers running CentOS 7 used by the Jarvis Linux Cluster Administration (LCA). These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The functionality of the project is to record the hardware specifications of each node and monitor node resource usage (e.g. CPU, memory) in real-time. The collected data is stored in an RDBMS. The LCA team will use the data to generate reports for future resource planning purposes (e.g. add or remove servers).
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Web app for resturant"
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2023-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Java Developer"
+    company: "Obor Desk"
+    duration: "2020-2023"
+    description: "I utilized Angular and Java to develop a web-based trading application, resulting in a 30% increase in trade volume and a 20% decrease in latency. By maintaining the CRM system, I improved data accuracy by 40%. Implementing test-driven development and optimizing SQL queries led to a 30% reduction in bugs and a 25% decrease in response times. Collaborating with cross-functional teams, I delivered projects on time and resolved 95% of UNIX/LINUX troubleshooting for customers."
+
+#List of edcuation
+education: 
+  - school_name: "Taiyuan University of Technology"
+    duration: "2017-2020"
+    degree: "Master degree"
+    department: "Software Engineering"
+    # optional
+    awards_achievements: 
+      - "Scholarship"
+      - "GPA: 3.53/4.0"
+  - school_name: "Université d'Abomey-Calavi"
+    duration: "2008-2012"
+    degree: "Bachelor's degree"
+    department: "Management Information Systems"
+   
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Oracle Java SE 8 Programmer Associate"
+      - "Microsoft : Azure Fundamentals"
+      - "Udemy Complete LINUX/UNIX Training Course (2023)"
+      - "Google Technical Support Fundamentals"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Soccer player"
+      - "Volunteer, CCI Ottawa"
