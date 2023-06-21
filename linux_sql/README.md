@@ -66,20 +66,20 @@ Consult the cluster diagram with three Linux hosts, a DB, and agents in the `ass
 ## Database Modeling
 - `host_info`: collects the host hardware info and insert it into the database. It will be run only once at the installation time.
 
-> id |   hostname           | cpu_num | cpu_arch |  cpu_model | cpu_mhz  | l2_cache |  timestamp | total_mem
-> ----+----------------------+---------+----------+------------+----------+----------+------------+-----------
-> 1 | jrvs-remote-desk.... |  	   2 |  x86_64  | Intel(R)...| 2299.998 | 	   256 |2023-06-19..|      2634
+> id |   hostname           | cpu_num | cpu_arch |  cpu_model | cpu_mhz  | l2_cache |  timestamp | total_mem  
+
+> 1  | jrvs-remote-desk.... |  	    2 |  x86_64  | Intel(R)...| 2299.998 | 	    256 |2023-06-19..|      2634
 
 
 - `host_usage`: collects the current host usage (CPU and Memory) and then insert into the database. It will be triggered by the cron job every minute.
 
-> timestamp           | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available
-> ---------------------+---------+-------------+----------+------------+---------+----------------
-> 2023-06-19 05:52:18 |       1 |        2651 |       97 |          1 |       0 |          22834
-> 2023-06-19 15:24:01 |       1 |        2643 |       97 |          0 |       0 |          22828
-> 2023-06-19 15:25:01 |       1 |        2643 |       97 |          0 |       0 |          22828
-> 2023-06-19 15:26:01 |       1 |        2641 |       97 |          0 |       0 |          22828
-> 2023-06-19 15:27:01 |       1 |        2640 |       97 |          0 |       0 |          22828`
+> timestamp           | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available  
+
+> 2023-06-19 05:52:18 |       1 |        2651 |       97 |          1 |       0 |          22834  
+> 2023-06-19 15:24:01 |       1 |        2643 |       97 |          0 |       0 |          22828  
+> 2023-06-19 15:25:01 |       1 |        2643 |       97 |          0 |       0 |          22828  
+> 2023-06-19 15:26:01 |       1 |        2641 |       97 |          0 |       0 |          22828  
+> 2023-06-19 15:27:01 |       1 |        2640 |       97 |          0 |       0 |          22828  
 
 
 # Test
