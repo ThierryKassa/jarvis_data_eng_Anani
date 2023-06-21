@@ -5,7 +5,8 @@ github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Highly skilled Software Developer with certifications in Oracle Java SE 8, Microsoft Azure Fundamentals, and Agile-Scrum. I have seven years of experience in business application design and website development. Proficient in Java, Angular, and Spring boot, I has successfully contributed to the development of the Obor Desk web-based trading application, resulting in increased trade volume and reduced latency. With a strong technical skillset, expertise in database management, and fluency in multiple languages, I am a self-motivated and adaptable team player in delivering innovative software solutions.
+summary: Highly skilled Software Engineer with seven years of experience in business application design and website development, I possess expertise in Java, Angular, Maven, and Spring Boot. Certified in multiple technologies including Oracle Java SE 8, Microsoft Azure, and Agile-Scrum, I have a strong technical foundation. My accomplishments include developing a web-based trading application resulting in increased trade volume and reduced latency, optimizing SQL queries for improved performance, and collaborating on cross-functional teams to deliver projects on time and within budget. Fluent in French, English, and Chinese, I am a self-motivated learner and a valuable team player.
+
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -123,3 +124,4 @@ others:
       - "Football player"
       - "Basketball player"
       - "Volunteer at Catholic Centre for Immigrants"
+
