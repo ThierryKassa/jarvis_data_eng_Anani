@@ -7,6 +7,7 @@ github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 # What excites you about the software industry and your passion. At least 80 words
 summary: Highly skilled Software Engineer with seven years of experience in business application design and website development, I possess expertise in Java, Angular, Maven, and Spring Boot. Certified in multiple technologies including Oracle Java SE 8, Microsoft Azure, and Agile-Scrum, I have a strong technical foundation. My accomplishments include developing a web-based trading application resulting in increased trade volume and reduced latency, optimizing SQL queries for improved performance, and collaborating on cross-functional teams to deliver projects on time and within budget. Fluent in French, English, and Chinese, I am a self-motivated learner and a valuable team player.
 
+
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -21,24 +22,24 @@ skills:
   competent:
     - Docker
     - Regexp
-    - PostgreSQL
-    - fermentum
-    - Donec
+    - AWS/Azure
+    - Spring boot
+    - JUnit
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Html
+    - CSS
+    - English
+    - French
+    - Chinese
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux Cluster Monitoring Agent "
-    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-Anani-jrvs/tree/master/linux_sql"
+  - name: "Linux Cluster Monitoring Agent"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-Anani-jrvs/tree/feature/psql_docker/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Managed a Linux cluster of 10 nodes/servers running CentOS 7 used by the Jarvis Linux Cluster Administration (LCA). These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The functionality of the project is to record the hardware specifications of each node and monitor node resource usage (e.g. CPU, memory) in real-time. The collected data is stored in an RDBMS. The LCA team will use the data to generate reports for future resource planning purposes (e.g. add or remove servers).
+    description: Managed a Linux cluster of 10 nodes/servers running CentOS 7 used by the Jarvis Linux Cluster Administration (LCA). These servers are internally connected through a switch and able to communicate through internal IPv4 addresses. The functionality of the project is to record the hardware specifications of each node and monitor node resource usage (e.g. CPU, memory) in real-time. The collected data is stored in an RDBMS. The LCA team will use the data to generate reports for future resource planning purposes (add or remove servers).
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
@@ -65,14 +66,14 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "OnlineStore"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    git_url: "https://github.com/ThierryKassa/Java_OnlineStore"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: This project is an online store allowing a customer to get registered and proceed with purchases. The technical aspect used is Java OOP concepts, Dependency Injection, and other functionalities such as registration, list of products, and credit card use to checkout.
+  - name: "MovieLovers"
+    git_url: "https://github.com/ThierryKassa/Angular_Pro"
+    description: This project is created to display movies and ratings. If you are a movie lover, you need to get registered through the application and then have access to the list of movies rated at the top. The project is built with Angular and implemented two-way data binding, dependency injection, and modular architecture. All these aspects are thoroughly handled in detail. As a web application Html, SCSS, and JavaScript are part of the development as well.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -87,23 +88,24 @@ professional_experience:
   - title: "Java Developer"
     company: "Obor Desk"
     duration: "2020-2023"
-    description: "I utilized Angular and Java to develop a web-based trading application, resulting in a 30% increase in trade volume and a 20% decrease in latency. By maintaining the CRM system, I improved data accuracy by 40%. Implementing test-driven development and optimizing SQL queries led to a 30% reduction in bugs and a 25% decrease in response times. Collaborating with cross-functional teams, I delivered projects on time and resolved 95% of UNIX/LINUX troubleshooting for customers."
+    description: "Developed Obor Desk web-based trading app (Angular/Java), boosting trade volume by 30% & reducing latency by 20%. Improved CRM accuracy, reduced errors by 40%. Used JUnit for test-driven development, reducing bugs by 30%. Optimized SQL queries for 25% faster responses. Collaborated in Agile environment, delivering projects on time. Resolved 95% UNIX/LINUX issues for customers."
 
-#List of edcuation
+#List of education
 education: 
   - school_name: "Taiyuan University of Technology"
     duration: "2017-2020"
-    degree: "Master degree"
+    degree: "Master's Degree"
     department: "Software Engineering"
     # optional
     awards_achievements: 
-      - "Scholarship"
+      - "One scientific paper publication: https://ijaers.com/issue-detail/vol-6-issue-10/"
       - "GPA: 3.53/4.0"
-  - school_name: "Université d'Abomey-Calavi"
+  - school_name: "University of Abomey-Calavi"
     duration: "2008-2012"
-    degree: "Bachelor's degree"
+    degree: "Bachelor's Degree"
     department: "Management Information Systems"
-   
+    awards_achievements: 
+
 #Optional section
 others:
     #category
@@ -112,13 +114,14 @@ others:
     bullets:
       - "Oracle Java SE 8 Programmer Associate"
       - "Microsoft : Azure Fundamentals"
-      - "Udemy Complete LINUX/UNIX Training Course (2023)"
+      - "Udemy Complete LINUX/UNIX Training Course 2023"
       - "Google Technical Support Fundamentals"
   - title: "Awards"
     bullets:
       - "Winner"
   - title: "Activities/Hobbies"
     bullets:
+      - "Football player"
       - "Basketball player"
-      - "Soccer player"
-      - "Volunteer, CCI Ottawa"
+      - "Volunteer at Catholic Centre for Immigrants"
+
