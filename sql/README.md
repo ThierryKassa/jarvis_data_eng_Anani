@@ -1,4 +1,6 @@
 # Introduction
+This SQL project  is for a newly created country club, with a set of members, facilities such as tennis courts, and booking history for those facilities. Amongst other things, the club wants to understand how they can use their information to analyse facility usage/demand. 
+The following tables are created in database named "sql_exercices" through PostgreSQL instance using docker.  
 
 # SQL Queries
 
